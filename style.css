@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+    background-color: #ecf0f3;
+    font-family: sans-serif;
+    outline:none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: #ecf0f3;
+    padding: 15PX ;
+    border-radius: 30PX;
+    box-shadow: inset 5PX 5PX 12PX#FFFFFF,  
+                      5PX 5PX 12PX  rgba(0, 0, 0,.16);   
+    display: grid;
+    grid-template-columns: repeat(4,68PX);
+                
+}
+input{
+    grid-column: span 4;
+    height: 70PX;
+    width: 260px;
+    background-color: #ecf0f3 ;
+    box-shadow: inset 5PX 5PX 12PX#FFFFFF,  
+                      5PX 5PX 12PX  rgba(0, 0, 0,.16); 
+    border: none;
+    border-radius: 30px;
+    color: rgb(70,70,70)s;
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: inset 5PX 5PX 12PX#FFFFFF,  
+                      5PX 5PX 12PX  rgba(0, 0, 0,.16); 
+    border: none; 
+    border-radius: 50%; 
+    margin: 8px;              
+    font-size: 16px;  
+}
+.equal{
+    width: 115px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: inset 5PX 5PX 12PX#FFFFFF,  
+    5PX 5PX 12PX  rgba(0, 0, 0,.16);
+
+
+
+}
